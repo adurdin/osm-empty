@@ -138,7 +138,11 @@ long cScr_Parrot::ReceiveMessage(sScrMsg* pMsg, sMultiParm* pReply, eScrTraceAct
 
 	if (pMsg->from != 0)
 	{
-		g_pScriptManager->PostMessage2(m_iObjId, pMsg->from, pMsg->message, pMsg->data, pMsg->data2, pMsg->data3);
+		g_pScriptManager->PostMessage2(m_iObjId, pMsg->from, pMsg->message, pMsg->data, pMsg->data2, pMsg->data3
+#if _DARKGAME != 1
+			, 0
+#endif
+		);
 	}
 
 	return iRet;
