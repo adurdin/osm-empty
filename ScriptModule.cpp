@@ -126,7 +126,7 @@ void cScriptModule::EndClassIter(tScrIter*)
 cScriptModule  g_ScriptModule;
 
 extern "C" __declspec(dllexport)
-int ScriptModuleInit (const char* pszName, 
+int __stdcall ScriptModuleInit (const char* pszName, 
                       IScriptMan* pScriptMan,
                       MPrintfProc pfnMPrintf,
                       IMalloc* pMalloc,
