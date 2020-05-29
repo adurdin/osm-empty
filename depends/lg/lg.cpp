@@ -1224,6 +1224,7 @@ cAnsiStr operator + (const char* lStr, const cAnsiStr& rStr)
 // cScrVec
 ///////////
 const cScrVec cScrVec::Zero;
+const float cScrVec::epsilon = 0.00001f;
 
 /*
 cScrVec cScrVec::operator+ (float g) const

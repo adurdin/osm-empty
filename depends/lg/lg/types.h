@@ -195,7 +195,6 @@ public:
 	static const float epsilon;
 	static const cScrVec Zero;
 };
-const float cScrVec::epsilon = 0.00001f;
 
 // A cScrStr should _never_ be NULL.
 class cScrStr
