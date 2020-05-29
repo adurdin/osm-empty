@@ -25,7 +25,6 @@
 #ifdef __BORLANDC__
 #include <rpc.h>
 #endif
-#include <objbase.h>
 
 #include <lg/script.h>
 #include <lg/scrmanagers.h>
