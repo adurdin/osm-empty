@@ -1,4 +1,6 @@
 *.exp
+*.ilk
 *.lib
 *.obj
 *.osm
+*.pdb
