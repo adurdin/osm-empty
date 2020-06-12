@@ -1,0 +1,10 @@
+Current status:
+
+- Can build empty.osm!
+- Can build demo.osm!
+    - Demo.osm can be loaded and its Echo script appears to work ok
+        - But Dromed crashes when leaving game mode. Guess I need to debug why (and build debug version of the osm too)?
+UGGGGGGGGGGh
+    now building both release and debug versions of demo.osm
+    Maybe if I attach vc++ now I can debug the crash (heap corruption??) ???
+    Is it even worth it anymore???
